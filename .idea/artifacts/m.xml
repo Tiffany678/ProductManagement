@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="m">
+    <output-path>$PROJECT_DIR$/out/artifacts/m</output-path>
+    <root id="archive" name="m.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsp-servlet-jdbc-mysql-crud-Application" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="application" name="javax.servlet.api" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
